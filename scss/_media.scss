@@ -1,0 +1,10 @@
+// tablets n smaller
+@media (max-width: 800px) {
+    #home-header {
+        height: 30rem;
+
+        .header-content {
+            padding-top: 4rem;
+        }
+    }
+}
