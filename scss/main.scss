@@ -195,16 +195,14 @@ img {
 
 .main-footer {
     background-color: $darkcolor;
+    height: 5rem;
+    color: #fff;
 
-    & .footer-content {
+    .footer-content {
         display: flex;
         justify-content: space-between;
-        padding: 1.2rem 0;
+        height: 5rem;
         align-items: center;
-
-        p {
-            color: #fff;
-        } 
         
         .social {
             .fab {
