@@ -32,13 +32,16 @@
             <h2 class="section-title">Contact Me</h2>
             <div class="bottomline"></div>
             <p class="lead text-center">Here is how you can reach me</p>
-            <form>
+            <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
                 <div class="contact-form">
                     <input type="text" class="text-input name-input" name="name" placeholder="Name">
                     <input type="email" class="text-input email-input" name="email" placeholder="Email Address">
                     <input type="text" class="text-input subject-input" name="subject" placeholder="Subject">
                     <input type="text" class="text-input phone-input" name="phone" placeholder="Phone Number">
                     <textarea name="massage" class="text-input massage-input" placeholder="Enter Massage"></textarea>
+                    <div class="my-1">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
                 </div>
                 <button type="submit" class="btn-dark">Submit</button>
             </form>

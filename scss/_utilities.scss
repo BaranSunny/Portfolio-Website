@@ -107,3 +107,10 @@ input[class^='btn-']:hover {
     }
 }
 
+// margin
+.my {
+    &-1 {
+        margin: 1rem 0;
+    }
+}
+
